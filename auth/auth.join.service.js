@@ -1,4 +1,3 @@
-const { response } = require('express');
 const User = require('../Database/User');
 
 module.exports.join = (req, res, next) => {
